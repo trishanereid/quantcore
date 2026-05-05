@@ -10,16 +10,14 @@ quantcore/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-
-
-## Licence
-
+```
+  
+## License
 MIT — see [LICENSE](LICENSE) for details.
 
+  
 ---
-
 ## Contact
-
-- GitHub: [github.com/YOUR_USERNAME](https://github.com/trishanereid)
-- Medium: [medium.com/@YOUR_HANDLE](https://medium.com/@trishanereid)
-- LinkedIn: [linkedin.com/in/YOUR_PROFILE](https://linkedin.com/in/trishane_reid)
+- GitHub: [github.com/trishanereid](https://github.com/trishanereid)
+- Medium: [medium.com/@trishanereid](https://medium.com/@trishanereid)
+- LinkedIn: [linkedin.com/in/trishane_reid](https://linkedin.com/in/trishane_reid)
