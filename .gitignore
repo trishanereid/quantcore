@@ -1,0 +1,181 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments — never commit these
+venv/
+env/
+ENV/
+.venv/
+.env/
+venv.bak/
+
+# ── Environment variables ─────────────────────────────────────────────────────
+# Store API keys, secrets, and credentials here — never commit this file
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+# Keep .ipynb files but ignore checkpoint folders
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Data and databases ────────────────────────────────────────────────────────
+# SQLite price cache — regenerated automatically by the app
+data/prices.db
+data/*.db
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.hdf5
+
+# Large data files
+*.pkl
+*.pickle
+*.feather
+
+# ── Testing and coverage ──────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+
+# ── Linting and type checking ─────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pylint.d/
+
+# ── IDE and editor files ──────────────────────────────────────────────────────
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ── Operating system files ────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+# Streamlit creates a local config folder — keep the secrets template but
+# never commit actual secrets
+.streamlit/secrets.toml
+
+# Keep the config file (theme, layout settings are fine to share)
+# .streamlit/config.toml  <-- do NOT ignore this one
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+log/
+*.out
+*.err
+
+# ── Temporary and scratch files ───────────────────────────────────────────────
+tmp/
+temp/
+scratch/
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# ── Documentation build output ────────────────────────────────────────────────
+docs/_build/
+docs/site/
+site/
+
+# ── Node (if any tooling is added) ───────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── What to ALWAYS commit (overrides above rules) ─────────────────────────────
+# These files must always be tracked regardless of any rule above.
+# Uncomment if a rule above accidentally excludes them.
+
+# !requirements.txt
+# !README.md
+# !.gitignore
+# !app.py
+# !quant_core/__init__.py
