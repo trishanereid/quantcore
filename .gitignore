@@ -179,3 +179,5 @@ yarn-error.log*
 # !.gitignore
 # !app.py
 # !quant_core/__init__.py
+
+.claude/
